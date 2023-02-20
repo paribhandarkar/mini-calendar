@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f9ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendar{
+    width: 300px;
+    background-color: #dbeadd;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#month{
+    background-color: #b5d5d0;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    font-size: 40px;
+}
+
+#weekday, #year{
+    font-size: 20px;
+}
+
+#date{
+    font-size: 70px;
+    margin: 0;
+    font-weight: bolder;
+}
